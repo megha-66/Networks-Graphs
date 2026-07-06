@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Megha"
+  },
+  "text": {
+    "more": "This retweet network graph shows \"bridge users\" or  \"connectors\". These are the users, who contribute to cross-community information amplification. \nIn an information diffusion graph, these users act as major amplifiers of content and information. ",
+    "intro": "A retweet network graph that shows information dissemination during the 2026 LPG Crisis in India. \nNode size is proportional to the outdegree of nodes or in other words,  the more a user retweets multiple posts , the more the outdegree value increase and thus, the node size.",
+    "title": "Retweet Network Graph (based on Outdegree) "
+  },
+  "legend": {
+    "edgeLabel": "Retweet relationship",
+    "colorLabel": "Modularity Class",
+    "nodeLabel": "X User Account"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
